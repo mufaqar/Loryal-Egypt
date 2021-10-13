@@ -39,7 +39,7 @@
     {{ content_for_header }}
 {% render 'minmaxify-head' %}
 </head>
-<body {{class_body_theme | strip_newlines-}}>
+<body id="me" {{class_body_theme | strip_newlines-}}>
   {%- render 'lazypreload' -%}
   <div id="nt_wrapper">
     {%- render 'header',t_name:t_name -%}
