@@ -1252,122 +1252,6 @@
               "sp": 25,
               "sp_mb": 15
             }
-          },
-          "1585640485544": {
-            "type": "btn",
-            "settings": {
-              "title": "SHOP NOW",
-              "btn_link": "shopify:\/\/collections\/trending",
-              "title2": "",
-              "btn_link2": "",
-              "btn_round": false,
-              "btn_icon": false,
-              "cl_txt": "#ffffff",
-              "cl_bg": "rgba(0,0,0,0)",
-              "cl_bd": "#ffffff",
-              "fs_text": 11,
-              "fw_text": 400,
-              "h": 42,
-              "ls_text": 3,
-              "fs_mb_text": 14,
-              "h_mb": 40,
-              "ls_mb_text": 0
-            }
-          },
-          "1585640162346": {
-            "type": "img",
-            "settings": {
-              "pos_img": "center center",
-              "cl_img": "",
-              "link_img1": "",
-              "open_link": "_blank",
-              "caption_w": "1",
-              "cap_v_pos": 50,
-              "cap_h_pos": 50,
-              "txt_align": "tc_md",
-              "cap_v_pos_mb": 50,
-              "cap_h_pos_mb": 50,
-              "txt_align_mb": "tc",
-              "cl_overlay": "#000000",
-              "cl_opacity": 10,
-              "ani_img": "tran_ef",
-              "ani_txt": "bottom_top",
-              "bg_content_bl": false,
-              "bg_content_cl": "#ffffff",
-              "bg_content_op": 50,
-              "content_pd": "40px 80px",
-              "content_pd_mb": "10px 20px",
-              "border_bl": false,
-              "br_color": "#222222",
-              "br_style": "solid",
-              "br_pd": 20,
-              "br_pd_mb": 10
-            }
-          },
-          "1585640505189": {
-            "type": "subhd",
-            "settings": {
-              "font": "f_body",
-              "title": "HOT TRENDING",
-              "color": "#ffffff",
-              "fw_text": 400,
-              "fs_text": 20,
-              "lh_text": 0,
-              "ls_text": 2.1,
-              "fs_mb_text": 14,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0,
-              "hide": false
-            }
-          },
-          "1585640508369": {
-            "type": "space",
-            "settings": {
-              "sp": 15,
-              "sp_mb": 10
-            }
-          },
-          "1585640512264": {
-            "type": "hd",
-            "settings": {
-              "title": "<span class=\"cp\">NZ ONLINE<\/span>  LOCAL STORE",
-              "color": "#ffffff",
-              "fw_text": 700,
-              "fs_text": 50,
-              "lh_text": 0,
-              "ls_text": 1,
-              "fs_mb_text": 25,
-              "lh_mb_text": 0,
-              "ls_mb_text": 0
-            }
-          },
-          "1585640518653": {
-            "type": "space",
-            "settings": {
-              "sp": 24,
-              "sp_mb": 10
-            }
-          },
-          "1585640524232": {
-            "type": "btn",
-            "settings": {
-              "title": "START SHOPPING",
-              "btn_link": "shopify:\/\/collections\/trending",
-              "title2": "",
-              "btn_link2": "",
-              "btn_round": false,
-              "btn_icon": false,
-              "cl_txt": "#ffffff",
-              "cl_bg": "rgba(0,0,0,0)",
-              "cl_bd": "#ffffff",
-              "fs_text": 11,
-              "fw_text": 400,
-              "h": 42,
-              "ls_text": 3,
-              "fs_mb_text": 14,
-              "h_mb": 40,
-              "ls_mb_text": 0
-            }
           }
         },
         "block_order": [
@@ -1381,14 +1265,7 @@
           "1585640474337",
           "1585640490350",
           "1585640480446",
-          "1585640492985",
-          "1585640485544",
-          "1585640162346",
-          "1585640505189",
-          "1585640508369",
-          "1585640512264",
-          "1585640518653",
-          "1585640524232"
+          "1585640492985"
         ],
         "settings": {
           "se_height": "cus_h",
