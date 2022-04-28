@@ -2654,9 +2654,9 @@
               "cl": "#ec0101",
               "lb": "",
               "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "center",
-              "wid": "full",
+              "lazy_mn": false,
+              "pos": "default",
+              "wid": "cus",
               "cus_wid": 1200
             }
           },
