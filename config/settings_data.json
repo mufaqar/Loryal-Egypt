@@ -1084,6 +1084,8 @@
           "1585640154849": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/pexels-andrea-piacquadio-761963.jpg",
+              "image_mb": "shopify:\/\/shop_images\/pexels-andrea-piacquadio-761963.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
@@ -1141,7 +1143,7 @@
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 27.5,
-              "lh_text": 0,
+              "lh_text": 47,
               "ls_text": 1,
               "fs_mb_text": 25,
               "lh_mb_text": 0,
@@ -1159,7 +1161,7 @@
             "type": "btn",
             "settings": {
               "title": "START SHOPPING",
-              "btn_link": "shopify:\/\/collections\/trending",
+              "btn_link": "shopify:\/\/collections\/all",
               "title2": "Shop Now",
               "btn_link2": "",
               "btn_round": false,
