@@ -552,7 +552,7 @@
             "settings": {
               "logo_width": 200,
               "title": "GET IN TOUCH",
-              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>184 Main Rd E, St Albans <br> <span class=\"pl__30\">VIC 3021, Egypt<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:contact@familyshop.com\">contact@familyshop.com<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+001 2233 456 <\/span><\/p>",
+              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>184 Main Rd E, St Albans <br> <span class=\"pl__30\">VIC 3021, Egypt<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:contact@nzdirect.store\">contact@nzdirect.store<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+64 210 283 8349 <\/span><\/p>",
               "social_mode": "3",
               "order": "1",
               "cl": "3",
@@ -1199,6 +1199,7 @@
           "1585640159361": {
             "type": "img",
             "settings": {
+              "image": "shopify:\/\/shop_images\/1minispeakersheadfones_2022-03-26_at_10.29.16_PM_1.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
