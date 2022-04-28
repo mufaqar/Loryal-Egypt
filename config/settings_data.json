@@ -588,7 +588,7 @@
             "disabled": true,
             "settings": {
               "title": "INFORMATION",
-              "menu": "footer",
+              "menu": "main-menu",
               "order": "1",
               "cl": "2",
               "cl_tb": "6",
