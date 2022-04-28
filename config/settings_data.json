@@ -439,19 +439,11 @@
               "hide": false,
               "col": "4"
             }
-          },
-          "header_top-2": {
-            "type": "cur",
-            "settings": {
-              "hide": true,
-              "col": "4"
-            }
           }
         },
         "block_order": [
           "1595994733101",
-          "1596007070336",
-          "header_top-2"
+          "1596007070336"
         ],
         "settings": {
           "height": 39,
@@ -571,37 +563,13 @@
               "cl_mb": "12"
             }
           },
-          "1581507824602": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "CATEGORIES",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507828337": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "title": "INFORMATION",
-              "menu": "main-menu",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
           "1581507840818": {
             "type": "menu",
             "settings": {
               "title": "USEFUL LINKS",
               "menu": "footer",
               "order": "1",
-              "cl": "2",
+              "cl": "15",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -626,8 +594,6 @@
         "block_order": [
           "1581507819652",
           "9514d9b3-f474-4115-afb0-d423aa67f671",
-          "1581507824602",
-          "1581507828337",
           "1581507840818",
           "1581507835369"
         ],
@@ -3290,116 +3256,10 @@
         ],
         "settings": {
         }
-      },
-      "1618921734f2b37ef2": {
-        "type": "collection-list",
-        "disabled": true,
-        "blocks": {
-          "1618921734f2b37ef2-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "skin-care",
-              "img_align": "center",
-              "title": "",
-              "url": ""
-            }
-          },
-          "1618921734f2b37ef2-1": {
-            "type": "collection",
-            "settings": {
-              "collection": "perfume",
-              "img_align": "center",
-              "title": "",
-              "url": ""
-            }
-          },
-          "56ee0a23-809f-41c4-8239-a8147265e61e": {
-            "type": "collection",
-            "settings": {
-              "collection": "hair-care",
-              "img_align": "center",
-              "title": "",
-              "url": ""
-            }
-          },
-          "1618921734f2b37ef2-3": {
-            "type": "collection",
-            "settings": {
-              "collection": "body-care",
-              "img_align": "center",
-              "title": "",
-              "url": ""
-            }
-          },
-          "1618921734f2b37ef2-2": {
-            "type": "collection",
-            "settings": {
-              "collection": "hair-color",
-              "img_align": "center",
-              "title": "",
-              "url": ""
-            }
-          },
-          "9de30ac4-1177-4596-b115-1d33ad74df49": {
-            "type": "collection",
-            "settings": {
-              "collection": "makeup",
-              "img_align": "center",
-              "title": "",
-              "url": ""
-            }
-          }
-        },
-        "block_order": [
-          "1618921734f2b37ef2-0",
-          "1618921734f2b37ef2-1",
-          "56ee0a23-809f-41c4-8239-a8147265e61e",
-          "1618921734f2b37ef2-3",
-          "1618921734f2b37ef2-2",
-          "9de30ac4-1177-4596-b115-1d33ad74df49"
-        ],
-        "settings": {
-          "title": "CATEGORIES",
-          "sub_title": "",
-          "sub_font": "2",
-          "style_title": "title_2",
-          "ic_tt": "gem",
-          "show_clpr": false,
-          "cat_layout": "1",
-          "hoverz": true,
-          "cat_design": "8",
-          "cat_space": "10",
-          "image_ratio": "ratio_nt",
-          "col": "2",
-          "col_md": "3",
-          "col_mb": "6",
-          "spn_txt": "Shop Now",
-          "pr_txt": "Products",
-          "loop": true,
-          "autoplay": true,
-          "au_time": 6,
-          "au_hover": true,
-          "button": true,
-          "btn_vi": "1",
-          "btn_owl": "2",
-          "btn_color": "0",
-          "dot": false,
-          "dot_owl": "1",
-          "dot_color": "1",
-          "hidden": false,
-          "cp_code": false,
-          "layout": "wrap",
-          "cl_bg": "",
-          "mg": "50px,,50px,",
-          "pd": "",
-          "mg_mb": "",
-          "pd_mb": ""
-        }
       }
     },
     "content_for_index": [
       "1581505806578",
-      "1618921734f2b37ef2",
       "1597120285267"
     ]
   }
