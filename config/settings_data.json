@@ -2647,7 +2647,7 @@
             "type": "mega",
             "settings": {
               "title": "CATEGORIES",
-              "url": "",
+              "url": "shopify:\/\/collections\/all",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2660,84 +2660,11 @@
               "cus_wid": 1200
             }
           },
-          "7df355f0-429c-4f1b-9a08-0b409133484a": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "body-care",
-              "title": "",
-              "col": "2"
-            }
-          },
-          "8db281c8-4ad7-42be-8708-3fe6b7a2306b": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "skin-care",
-              "title": "",
-              "col": "2"
-            }
-          },
-          "93238db3-bab3-42a4-8067-c14eff1e58b3": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "perfume",
-              "title": "Perfume",
-              "col": "2"
-            }
-          },
-          "1a92e955-a9de-4312-8f87-db83007ee19f": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "makeup",
-              "title": "",
-              "col": "2"
-            }
-          },
-          "315537d3-fe6c-4652-ac85-e5b96c61c132": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "hair-care",
-              "title": "",
-              "col": "2"
-            }
-          },
-          "42e9d7d6-387b-4ed0-8af8-38858f0eb199": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "hair-color",
-              "title": "",
-              "col": "2"
-            }
-          },
-          "header_4-1": {
-            "type": "simple",
-            "settings": {
-              "title": "BRANDS",
-              "url": "#",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "rgba(0,0,0,0)"
-            }
-          },
           "c7202bc3-444d-4e99-8892-741fb1390b98": {
             "type": "simple",
             "settings": {
-              "title": "OUR RESPONSE TO COVID-19",
-              "url": "shopify:\/\/pages\/our-response-to-covid-19",
+              "title": "Contact Us",
+              "url": "shopify:\/\/pages\/contact",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2750,13 +2677,6 @@
         "block_order": [
           "header_4-0",
           "85564b4b-b856-4111-aa79-8ddaf5dd1c11",
-          "7df355f0-429c-4f1b-9a08-0b409133484a",
-          "8db281c8-4ad7-42be-8708-3fe6b7a2306b",
-          "93238db3-bab3-42a4-8067-c14eff1e58b3",
-          "1a92e955-a9de-4312-8f87-db83007ee19f",
-          "315537d3-fe6c-4652-ac85-e5b96c61c132",
-          "42e9d7d6-387b-4ed0-8af8-38858f0eb199",
-          "header_4-1",
           "c7202bc3-444d-4e99-8892-741fb1390b98"
         ],
         "settings": {
