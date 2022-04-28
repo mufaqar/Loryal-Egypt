@@ -2621,9 +2621,9 @@
           "des_tab": "2",
           "layout": "container",
           "cl_bg": "",
-          "mg": "120px,,120px,",
+          "mg": "50px,,120px,",
           "pd": "",
-          "mg_mb": "60px,,60px,",
+          "mg_mb": "20px,,60px,",
           "pd_mb": ""
         }
       },
