@@ -2695,43 +2695,8 @@
             "type": "collection",
             "settings": {
               "title": "Best Seller",
-              "collection": "perfume",
+              "collection": "frontpage",
               "limit": 16,
-              "space": 30,
-              "use_pagination": "none",
-              "btn_rd": true,
-              "btn_icon": false,
-              "btn_style": "default",
-              "col_pr": "4",
-              "col_pr_tb": "4",
-              "col_pr_mb": "6",
-              "pr_des": "1 tc",
-              "show_vendor": false,
-              "use_cdt": false,
-              "round_cd": false,
-              "cdt_des": "1",
-              "use_eq_height": false,
-              "image_ratio": "ratio_nt",
-              "image_size": "nt_cover",
-              "image_position": "8",
-              "loop": true,
-              "au_time": 0,
-              "au_hover": true,
-              "button": true,
-              "btn_vi": "1",
-              "btn_owl": "1",
-              "btn_color": "0",
-              "dot": false,
-              "dot_owl": "1",
-              "dot_color": "1"
-            }
-          },
-          "1597120285267-1": {
-            "type": "collection",
-            "settings": {
-              "title": "Sale",
-              "collection": "body-care",
-              "limit": 3,
               "space": 30,
               "use_pagination": "none",
               "btn_rd": true,
@@ -2765,7 +2730,7 @@
             "type": "collection",
             "settings": {
               "title": "Featured",
-              "collection": "makeup",
+              "collection": "new-arrivals-all-products-under-100",
               "limit": 3,
               "space": 30,
               "use_pagination": "none",
@@ -2799,7 +2764,6 @@
         },
         "block_order": [
           "1597120285267-0",
-          "1597120285267-1",
           "1597120285267-2"
         ],
         "settings": {
