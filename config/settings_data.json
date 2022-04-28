@@ -1362,7 +1362,7 @@
           "1585640512264": {
             "type": "hd",
             "settings": {
-              "title": "<span class=\"cp\">LOOKBOOK<\/span> COLLECTION",
+              "title": "<span class=\"cp\">NZ ONLINE<\/span>  LOCAL STORE",
               "color": "#ffffff",
               "fw_text": 700,
               "fs_text": 50,
@@ -3461,6 +3461,7 @@
       },
       "1618921734f2b37ef2": {
         "type": "collection-list",
+        "disabled": true,
         "blocks": {
           "1618921734f2b37ef2-0": {
             "type": "collection",
