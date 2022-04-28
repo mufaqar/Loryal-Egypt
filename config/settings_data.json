@@ -3051,11 +3051,36 @@
         ],
         "settings": {
         }
+      },
+      "1651141044638ab5b7": {
+        "type": "image_text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/1minispeakersheadfones_2022-03-26_at_10.29.16_PM_1.jpg",
+          "img_align": "center",
+          "img_position": "1",
+          "image_ratio": "ratio16_9",
+          "text_size": "60,18",
+          "title": "Our services and products",
+          "text": "<p>Budget Computers & Kiwi Mobiles Rotorua<br\/><br\/>Budget Computers was founded in Hamilton in 2004.  There are now four shops in Hamilton, Tauranga and Rotorua.<br\/><br\/>Our records show we have done 41 thousand mobile phone and computer repairs.<br\/><br\/>Each store is individually owned.<\/p>",
+          "button_label": "Contact us",
+          "button_link": "",
+          "open_link": "_blank",
+          "txt_align": "tc",
+          "use_shadow": false,
+          "cl_txt": "dark",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
-      "1597120285267"
+      "1597120285267",
+      "1651141044638ab5b7"
     ]
   }
 }
