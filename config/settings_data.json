@@ -2643,8 +2643,8 @@
               "lb_cl": "rgba(0,0,0,0)"
             }
           },
-          "85564b4b-b856-4111-aa79-8ddaf5dd1c11": {
-            "type": "mega",
+          "7d75486a-6c61-40cb-944a-2d7ca6ff2838": {
+            "type": "simple",
             "settings": {
               "title": "PRODUCTS",
               "url": "shopify:\/\/collections\/all",
@@ -2653,11 +2653,7 @@
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "",
-              "lazy_mn": false,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 1200
+              "lb_cl": ""
             }
           },
           "c7202bc3-444d-4e99-8892-741fb1390b98": {
@@ -2676,7 +2672,7 @@
         },
         "block_order": [
           "header_4-0",
-          "85564b4b-b856-4111-aa79-8ddaf5dd1c11",
+          "7d75486a-6c61-40cb-944a-2d7ca6ff2838",
           "c7202bc3-444d-4e99-8892-741fb1390b98"
         ],
         "settings": {
