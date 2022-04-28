@@ -2970,7 +2970,7 @@
             "type": "mega",
             "settings": {
               "title": "CATEGORIES",
-              "url": "shopify:\/\/products\/360-degree-smart-selfie-stick",
+              "url": "",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3566,8 +3566,9 @@
       },
       "16190100450a07c5d8": {
         "type": "custom_html",
+        "disabled": true,
         "settings": {
-          "code": "<div class=\"viewall\">\n<a href=\"https:\/\/loryal-egypt.myshopify.com\/collections\/all\">View All<\/a>\n<\/div>",
+          "code": "",
           "layout": "container",
           "cl_bg": "",
           "mg": "0",
