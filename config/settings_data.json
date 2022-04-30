@@ -3136,16 +3136,16 @@
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
-          "collection": "",
-          "limit": 12,
+          "collection": "frontpage",
+          "limit": 21,
           "space": 30,
           "use_pagination": "none",
           "use_bar_lm": true,
           "btn_rd": true,
           "btn_icon": false,
           "btn_style": "default",
-          "col_pr": "3",
-          "col_pr_tb": "3",
+          "col_pr": "4",
+          "col_pr_tb": "4",
           "col_pr_mb": "6",
           "pr_des": "1",
           "show_vendor": false,
@@ -3169,10 +3169,10 @@
     },
     "content_for_index": [
       "1581505806578",
+      "16513172349ce09c6a",
       "1597120285267",
       "1651141044638ab5b7",
-      "165131677849b1ab5b",
-      "16513172349ce09c6a"
+      "165131677849b1ab5b"
     ]
   }
 }
