@@ -2668,12 +2668,26 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "22d6524d-97e7-4af3-abd7-a7c7f2db7f79": {
+            "type": "simple",
+            "settings": {
+              "title": "360 Products",
+              "url": "shopify:\/\/products\/360-degree-smart-selfie-stick",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
           "header_4-0",
           "7d75486a-6c61-40cb-944a-2d7ca6ff2838",
-          "c7202bc3-444d-4e99-8892-741fb1390b98"
+          "c7202bc3-444d-4e99-8892-741fb1390b98",
+          "22d6524d-97e7-4af3-abd7-a7c7f2db7f79"
         ],
         "settings": {
           "height": 62,
