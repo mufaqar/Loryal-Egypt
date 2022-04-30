@@ -3075,12 +3075,63 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "16513164397479f978": {
+        "type": "featured_blog",
+        "settings": {
+          "title": "Blog posts",
+          "sub_title": "Sub Text",
+          "sub_font": "2",
+          "btn_title": "See all posts",
+          "style_title": "title_1",
+          "ic_tt": "pencil-alt",
+          "show_clpr": false,
+          "layout_des": "1",
+          "art_des": "1",
+          "blog": "",
+          "limit": 8,
+          "use_pagination": "none",
+          "use_bar_lm": true,
+          "btn_rd": true,
+          "btn_icon": false,
+          "btn_style": "default",
+          "date": "date",
+          "col_pr": "4",
+          "col_pr_tb": "4",
+          "col_pr_mb": "12",
+          "show_cnt": true,
+          "show_au": true,
+          "show_dt": true,
+          "show_cm": false,
+          "show_rm": false,
+          "loop": false,
+          "au_time": 0,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "use_eq_height": true,
+          "image_ratio": "ratio4_3",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "1581505806578",
       "1597120285267",
-      "1651141044638ab5b7"
+      "1651141044638ab5b7",
+      "16513164397479f978"
     ]
   }
 }
