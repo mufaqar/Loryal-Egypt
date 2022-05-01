@@ -2668,30 +2668,12 @@
               "lb": "",
               "lb_cl": ""
             }
-          },
-          "e44ecef3-85cc-4dad-88a4-88b5d220e39b": {
-            "type": "mega",
-            "settings": {
-              "title": "SMARTPHONES REPAIR & SALES",
-              "url": "",
-              "open_link": "_blank",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 1200
-            }
           }
         },
         "block_order": [
           "header_4-0",
           "7d75486a-6c61-40cb-944a-2d7ca6ff2838",
-          "c7202bc3-444d-4e99-8892-741fb1390b98",
-          "e44ecef3-85cc-4dad-88a4-88b5d220e39b"
+          "c7202bc3-444d-4e99-8892-741fb1390b98"
         ],
         "settings": {
           "height": 62,
