@@ -1116,13 +1116,13 @@
           "1585640443284": {
             "type": "subhd",
             "settings": {
-              "font": "f_body",
+              "font": "f_heading",
               "title": "NZ ONLINE LOCAL STORE. WE ARE OFFERING THE LOWEST PRICES WITH A LOCAL WARRANTY, WE DONT BELIEVE IN SHOWING PRICES HIGH, THEN SHOWING HEAVY DISCOUNTS. WE FOLLOW FAIR POLICY",
               "color": "#ffffff",
               "fw_text": 400,
-              "fs_text": 28.5,
+              "fs_text": 24.5,
               "lh_text": 0,
-              "ls_text": 2,
+              "ls_text": 2.7,
               "fs_mb_text": 15,
               "lh_mb_text": 0,
               "ls_mb_text": 0,
