@@ -2668,12 +2668,26 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "8ffb73e5-04eb-4513-9f64-c81f50941a26": {
+            "type": "simple",
+            "settings": {
+              "title": "SAMSUNG",
+              "url": "shopify:\/\/collections\/samsung-z-3-fold",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
           "header_4-0",
           "7d75486a-6c61-40cb-944a-2d7ca6ff2838",
-          "c7202bc3-444d-4e99-8892-741fb1390b98"
+          "c7202bc3-444d-4e99-8892-741fb1390b98",
+          "8ffb73e5-04eb-4513-9f64-c81f50941a26"
         ],
         "settings": {
           "height": 62,
