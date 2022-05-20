@@ -2685,13 +2685,24 @@
               "wid": "cus",
               "cus_wid": 1200
             }
+          },
+          "8f8e2f54-5b72-4ab2-9b3c-d0bc7d801f31": {
+            "type": "cat",
+            "settings": {
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "new-arrivals-all-products-under-100",
+              "title": "",
+              "col": "4"
+            }
           }
         },
         "block_order": [
           "header_4-0",
           "7d75486a-6c61-40cb-944a-2d7ca6ff2838",
           "c7202bc3-444d-4e99-8892-741fb1390b98",
-          "d26f6eac-c50b-4a06-bb11-c859e35fa4c1"
+          "d26f6eac-c50b-4a06-bb11-c859e35fa4c1",
+          "8f8e2f54-5b72-4ab2-9b3c-d0bc7d801f31"
         ],
         "settings": {
           "height": 60,
