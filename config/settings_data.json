@@ -2673,7 +2673,7 @@
             "type": "mega",
             "settings": {
               "title": "LATEST PHONE CASES",
-              "url": "shopify:\/\/pages\/https-nzdirect-store-products-universal-portable-double-phone-sportsmen-phone-leather-bag-pouch-belt-waist-wallet-for-all-model-mobile-phone",
+              "url": "shopify:\/\/collections\/latest-phone-case",
               "open_link": "_blank",
               "icon": "PHONE CASES",
               "cus_cl": false,
@@ -2694,7 +2694,7 @@
           "d26f6eac-c50b-4a06-bb11-c859e35fa4c1"
         ],
         "settings": {
-          "height": 62,
+          "height": 60,
           "height_2": 63,
           "arrow": false,
           "border": true,
