@@ -2689,10 +2689,11 @@
           "8f8e2f54-5b72-4ab2-9b3c-d0bc7d801f31": {
             "type": "cat",
             "settings": {
-              "cat_design": "1",
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-20_at_6.23.44_PM.png",
+              "cat_design": "2",
               "hoverz": true,
-              "collection": "new-arrivals-all-products-under-100",
-              "title": "",
+              "collection": "universal-leather-cases",
+              "title": "Men sport Leather Case",
               "col": "4"
             }
           }
