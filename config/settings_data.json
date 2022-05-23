@@ -2656,19 +2656,6 @@
               "lb_cl": ""
             }
           },
-          "c7202bc3-444d-4e99-8892-741fb1390b98": {
-            "type": "simple",
-            "settings": {
-              "title": "CONTACT US",
-              "url": "shopify:\/\/pages\/contact",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "d26f6eac-c50b-4a06-bb11-c859e35fa4c1": {
             "type": "mega",
             "settings": {
@@ -2685,13 +2672,26 @@
               "wid": "cus",
               "cus_wid": 1200
             }
+          },
+          "c7202bc3-444d-4e99-8892-741fb1390b98": {
+            "type": "simple",
+            "settings": {
+              "title": "CONTACT US",
+              "url": "shopify:\/\/pages\/contact",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
           "header_4-0",
           "7d75486a-6c61-40cb-944a-2d7ca6ff2838",
-          "c7202bc3-444d-4e99-8892-741fb1390b98",
-          "d26f6eac-c50b-4a06-bb11-c859e35fa4c1"
+          "d26f6eac-c50b-4a06-bb11-c859e35fa4c1",
+          "c7202bc3-444d-4e99-8892-741fb1390b98"
         ],
         "settings": {
           "height": 60,
