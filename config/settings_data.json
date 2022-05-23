@@ -2673,6 +2673,23 @@
               "cus_wid": 1200
             }
           },
+          "fd294656-f2ee-453e-af07-ea7ff3b6d651": {
+            "type": "mega",
+            "settings": {
+              "title": "SAMSUNG CASES",
+              "url": "shopify:\/\/collections\/samsung-s-all-models-latest-cases",
+              "open_link": "_blank",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 1200
+            }
+          },
           "c7202bc3-444d-4e99-8892-741fb1390b98": {
             "type": "simple",
             "settings": {
@@ -2691,6 +2708,7 @@
           "header_4-0",
           "7d75486a-6c61-40cb-944a-2d7ca6ff2838",
           "d26f6eac-c50b-4a06-bb11-c859e35fa4c1",
+          "fd294656-f2ee-453e-af07-ea7ff3b6d651",
           "c7202bc3-444d-4e99-8892-741fb1390b98"
         ],
         "settings": {
