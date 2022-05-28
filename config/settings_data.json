@@ -2736,8 +2736,8 @@
           "arrow": false,
           "border": true,
           "color": "#ececec",
-          "source": "0",
-          "txt": "",
+          "source": "2",
+          "txt": "WE ARE LOCAL, OVERNIGHT SHIPPING ON WEEKDAYS",
           "social": "2",
           "align": "tc",
           "hover": "hover_side_up"
