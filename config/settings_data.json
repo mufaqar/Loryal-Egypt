@@ -626,18 +626,10 @@
             "settings": {
               "text": "Copyright © [year] <span class=\"cp\">Budget Computers &amp; Kiwi Mobiles Rotorua<\/span> All Rights Reserved."
             }
-          },
-          "1581507855652": {
-            "type": "menu",
-            "disabled": true,
-            "settings": {
-              "menu": "footer"
-            }
           }
         },
         "block_order": [
-          "1581507860120",
-          "1581507855652"
+          "1581507860120"
         ],
         "settings": {
           "layout": "6",
@@ -763,7 +755,7 @@
             "type": "menu",
             "settings": {
               "title": "IPHONE CASES",
-              "url": "shopify:\/\/collections\/iphones",
+              "url": "shopify:\/\/collections\/latest-phone-case",
               "open_link": "_self",
               "menu": "",
               "icon": "",
