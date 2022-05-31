@@ -737,7 +737,7 @@
           "mb_nav-0": {
             "type": "menu",
             "settings": {
-              "title": "Demo",
+              "title": "HOME",
               "url": "",
               "open_link": "_self",
               "menu": "",
@@ -749,7 +749,7 @@
           "mb_nav-1": {
             "type": "menu",
             "settings": {
-              "title": "Shop",
+              "title": "WIRELESS HEADPHONES",
               "url": "",
               "open_link": "_self",
               "menu": "",
