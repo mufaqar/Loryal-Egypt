@@ -818,16 +818,6 @@
               "lb_cl": ""
             }
           },
-          "mb_nav-4": {
-            "type": "wis",
-            "settings": {
-            }
-          },
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063": {
-            "type": "compe",
-            "settings": {
-            }
-          },
           "mb_nav-5": {
             "type": "sea",
             "settings": {
@@ -835,18 +825,6 @@
           },
           "mb_nav-6": {
             "type": "acc",
-            "settings": {
-            }
-          },
-          "mb_nav-7": {
-            "type": "help",
-            "settings": {
-              "title": "Need help?",
-              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:gecko@domain.com\">gecko@domain.com<\/a>"
-            }
-          },
-          "mb_nav-8": {
-            "type": "cur",
             "settings": {
             }
           }
@@ -859,12 +837,8 @@
           "1585642908420",
           "mb_nav-3",
           "1585642887352",
-          "mb_nav-4",
-          "b30e9037-eb1b-450d-b6e5-b0fbdc6c3063",
           "mb_nav-5",
-          "mb_nav-6",
-          "mb_nav-7",
-          "mb_nav-8"
+          "mb_nav-6"
         ],
         "settings": {
         }
@@ -875,7 +849,7 @@
           "1585641915360": {
             "type": "cat",
             "settings": {
-              "cat": "",
+              "cat": "universal-leather-cases",
               "title": "Women’s Clothing",
               "url": "",
               "menu": "",
@@ -885,24 +859,11 @@
               "icon": "female"
             }
           },
-          "1585642130935": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Men’s Clothing",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "male"
-            }
-          },
           "1585642167981": {
             "type": "cat",
             "settings": {
-              "cat": "",
-              "title": "Watches",
+              "cat": "iphones",
+              "title": "iPhones",
               "url": "",
               "menu": "",
               "lb": "",
@@ -914,8 +875,8 @@
           "1585642277236": {
             "type": "cat",
             "settings": {
-              "cat": "",
-              "title": "Acessories",
+              "cat": "samsung-s-all-models-latest-cases",
+              "title": "Latest cases",
               "url": "",
               "menu": "",
               "lb": "",
@@ -923,97 +884,12 @@
               "icons_op": "2",
               "icon": "glasses"
             }
-          },
-          "1585642450066": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "camera-retro"
-            }
-          },
-          "1585642600575": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Shoes",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "shoe-prints"
-            }
-          },
-          "1585642629333": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Jewellery",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "gem"
-            }
-          },
-          "1585642644518": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "T-Shirt",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "tshirt"
-            }
-          },
-          "1585642780875": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Toys, Kids & Baby",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "child"
-            }
-          },
-          "1585642798957": {
-            "type": "cat",
-            "settings": {
-              "cat": "",
-              "title": "Decor",
-              "url": "",
-              "menu": "",
-              "lb": "",
-              "lb_cl": "#e91e63",
-              "icons_op": "2",
-              "icon": "chair"
-            }
           }
         },
         "block_order": [
           "1585641915360",
-          "1585642130935",
           "1585642167981",
-          "1585642277236",
-          "1585642450066",
-          "1585642600575",
-          "1585642629333",
-          "1585642644518",
-          "1585642780875",
-          "1585642798957"
+          "1585642277236"
         ],
         "settings": {
         }
