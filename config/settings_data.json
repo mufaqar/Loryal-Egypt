@@ -762,7 +762,7 @@
             "type": "menu",
             "settings": {
               "title": "IPHONE CASES",
-              "url": "",
+              "url": "shopify:\/\/collections\/iphones",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -774,7 +774,7 @@
             "type": "menu",
             "settings": {
               "title": "SAMSUNG CASES",
-              "url": "",
+              "url": "shopify:\/\/collections\/samsung-s-all-models-latest-cases",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -786,7 +786,7 @@
             "type": "menu",
             "settings": {
               "title": "REFURBISHED IPHONES",
-              "url": "",
+              "url": "shopify:\/\/collections\/samsung-z-3-fold",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -798,7 +798,7 @@
             "type": "menu",
             "settings": {
               "title": "CONTACT US",
-              "url": "",
+              "url": "shopify:\/\/pages\/contact",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -810,7 +810,7 @@
             "type": "menu",
             "settings": {
               "title": "BLOG",
-              "url": "",
+              "url": "shopify:\/\/blogs\/news",
               "open_link": "_self",
               "menu": "",
               "icon": "",
