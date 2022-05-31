@@ -982,13 +982,13 @@
               "title": "NZ ONLINE LOCAL STORE. WE ARE OFFERING THE LOWEST PRICES WITH A LOCAL WARRANTY, WE DONT BELIEVE IN SHOWING PRICES HIGH, THEN SHOWING HEAVY DISCOUNTS. WE FOLLOW FAIR POLICY",
               "color": "#ffffff",
               "fw_text": 400,
-              "fs_text": 21,
+              "fs_text": 17,
               "lh_text": 0,
-              "ls_text": 2.7,
-              "fs_mb_text": 15,
+              "ls_text": 1.4,
+              "fs_mb_text": 14,
               "lh_mb_text": 0,
               "ls_mb_text": 0,
-              "hide": false
+              "hide": true
             }
           },
           "1585640460694": {
