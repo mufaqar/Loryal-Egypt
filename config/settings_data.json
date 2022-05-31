@@ -738,7 +738,7 @@
             "type": "menu",
             "settings": {
               "title": "HOME",
-              "url": "",
+              "url": "shopify:\/\/collections\/frontpage",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -750,7 +750,7 @@
             "type": "menu",
             "settings": {
               "title": "WIRELESS HEADPHONES",
-              "url": "",
+              "url": "shopify:\/\/collections\/wireless-bluetooth-headphones-speakers",
               "open_link": "_self",
               "menu": "",
               "icon": "",
