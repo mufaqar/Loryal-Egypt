@@ -629,6 +629,7 @@
           },
           "1581507855652": {
             "type": "menu",
+            "disabled": true,
             "settings": {
               "menu": "footer"
             }
