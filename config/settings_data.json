@@ -75,7 +75,7 @@
     "h_tr_top": false,
     "h_navmb": 62,
     "mb_cat": true,
-    "only_icon": false,
+    "only_icon": true,
     "first_cat": false,
     "h__bgimg": "",
     "bgnav": "#ffffff",
