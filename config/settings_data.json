@@ -2586,17 +2586,6 @@
               "pos": "right"
             }
           },
-          "215c3d9b-4ba5-4e74-93b9-f634a181beb8": {
-            "type": "cat",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-23_at_7.02.15_PM.png",
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "samsung-s-all-models-latest-cases",
-              "title": "WIRELESS HEADPHONES",
-              "col": "3"
-            }
-          },
           "d79dcdae-bb55-467c-ad9d-f88796baa4de": {
             "type": "simple",
             "settings": {
@@ -2618,13 +2607,12 @@
           "8232dc28-0378-42a7-8715-7c66615674ac",
           "c7202bc3-444d-4e99-8892-741fb1390b98",
           "ae08ad93-39c9-4c59-b168-e31d431b9888",
-          "215c3d9b-4ba5-4e74-93b9-f634a181beb8",
           "d79dcdae-bb55-467c-ad9d-f88796baa4de"
         ],
         "settings": {
           "height": 60,
           "height_2": 63,
-          "arrow": false,
+          "arrow": true,
           "border": true,
           "color": "#ececec",
           "source": "2",
