@@ -2508,7 +2508,7 @@
               "title": "BLUETOOTH & PERIPHERALS",
               "url": "shopify:\/\/collections\/bluetooth-peripherals",
               "open_link": "_self",
-              "menu": "",
+              "menu": "bluetooth-peripherals",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -2518,45 +2518,13 @@
               "pos": "right"
             }
           },
-          "9a92c703-8f9e-4910-b22c-93f8fb90fb44": {
+          "3044169b-c7ef-4a41-987e-76bafe3a7c49": {
             "type": "dropdown",
             "settings": {
-              "title": "WOMEN PRODUCTS",
+              "title": "LATEST CASES",
               "url": "",
               "open_link": "_self",
-              "menu": "women-products",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "right"
-            }
-          },
-          "e8aa73eb-47f0-49bd-ad77-15eccf449a7d": {
-            "type": "dropdown",
-            "settings": {
-              "title": "LEATHER JACKETS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "leather-jackets",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "right"
-            }
-          },
-          "0d86edd1-ed08-4ac8-aa80-478afb867591": {
-            "type": "dropdown",
-            "settings": {
-              "title": "T&C USEFUL LINKS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "t-c-useful-links",
+              "menu": "latest-cases",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -2582,13 +2550,45 @@
               "pos": "right"
             }
           },
-          "3044169b-c7ef-4a41-987e-76bafe3a7c49": {
+          "e8aa73eb-47f0-49bd-ad77-15eccf449a7d": {
             "type": "dropdown",
             "settings": {
-              "title": "LATEST CASES",
+              "title": "LEATHER JACKETS",
               "url": "",
               "open_link": "_self",
-              "menu": "latest-cases",
+              "menu": "leather-jackets",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "right"
+            }
+          },
+          "9a92c703-8f9e-4910-b22c-93f8fb90fb44": {
+            "type": "dropdown",
+            "settings": {
+              "title": "WOMEN PRODUCTS",
+              "url": "",
+              "open_link": "_self",
+              "menu": "women-products",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "right"
+            }
+          },
+          "0d86edd1-ed08-4ac8-aa80-478afb867591": {
+            "type": "dropdown",
+            "settings": {
+              "title": "T&C USEFUL LINKS",
+              "url": "",
+              "open_link": "_self",
+              "menu": "t-c-useful-links",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -2602,11 +2602,11 @@
         "block_order": [
           "header_4-0",
           "ae08ad93-39c9-4c59-b168-e31d431b9888",
-          "9a92c703-8f9e-4910-b22c-93f8fb90fb44",
-          "e8aa73eb-47f0-49bd-ad77-15eccf449a7d",
-          "0d86edd1-ed08-4ac8-aa80-478afb867591",
+          "3044169b-c7ef-4a41-987e-76bafe3a7c49",
           "8c67ee5c-4d99-4f1e-821a-d6bd81311779",
-          "3044169b-c7ef-4a41-987e-76bafe3a7c49"
+          "e8aa73eb-47f0-49bd-ad77-15eccf449a7d",
+          "9a92c703-8f9e-4910-b22c-93f8fb90fb44",
+          "0d86edd1-ed08-4ac8-aa80-478afb867591"
         ],
         "settings": {
           "height": 60,
