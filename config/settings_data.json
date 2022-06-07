@@ -2550,7 +2550,7 @@
               "title": "T&C USEFUL LINKS",
               "url": "",
               "open_link": "_self",
-              "menu": "footer",
+              "menu": "t-c-useful-links",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
