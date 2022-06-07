@@ -2581,6 +2581,22 @@
               "lazy_mn": true,
               "pos": "right"
             }
+          },
+          "3044169b-c7ef-4a41-987e-76bafe3a7c49": {
+            "type": "dropdown",
+            "settings": {
+              "title": "LATEST CASES",
+              "url": "",
+              "open_link": "_self",
+              "menu": "latest-cases",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "right"
+            }
           }
         },
         "block_order": [
@@ -2589,7 +2605,8 @@
           "9a92c703-8f9e-4910-b22c-93f8fb90fb44",
           "e8aa73eb-47f0-49bd-ad77-15eccf449a7d",
           "0d86edd1-ed08-4ac8-aa80-478afb867591",
-          "8c67ee5c-4d99-4f1e-821a-d6bd81311779"
+          "8c67ee5c-4d99-4f1e-821a-d6bd81311779",
+          "3044169b-c7ef-4a41-987e-76bafe3a7c49"
         ],
         "settings": {
           "height": 60,
