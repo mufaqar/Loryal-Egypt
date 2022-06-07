@@ -2614,11 +2614,11 @@
           "arrow": true,
           "border": true,
           "color": "#ececec",
-          "source": "2",
+          "source": "0",
           "txt": "WE ARE LOCAL, OVERNIGHT SHIPPING ON WEEKDAYS",
           "social": "2",
           "align": "tc",
-          "hover": "hover_side_up"
+          "hover": "hover_fade_in"
         }
       },
       "header_5": {
