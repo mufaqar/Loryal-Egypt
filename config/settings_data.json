@@ -2586,14 +2586,30 @@
               "pos": "right"
             }
           },
-          "e149b941-66db-4b4e-b1fa-7b61491d650d": {
-            "type": "cat",
+          "1dffda28-059f-4a75-884a-563dc59ccce7": {
+            "type": "simple",
             "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "wireless-headphones",
-              "title": "WIRELESS HEADPHONES",
-              "col": "4"
+              "title": "Heading",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "d79dcdae-bb55-467c-ad9d-f88796baa4de": {
+            "type": "simple",
+            "settings": {
+              "title": "Heading",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
             }
           }
         },
@@ -2604,7 +2620,8 @@
           "8232dc28-0378-42a7-8715-7c66615674ac",
           "c7202bc3-444d-4e99-8892-741fb1390b98",
           "ae08ad93-39c9-4c59-b168-e31d431b9888",
-          "e149b941-66db-4b4e-b1fa-7b61491d650d"
+          "1dffda28-059f-4a75-884a-563dc59ccce7",
+          "d79dcdae-bb55-467c-ad9d-f88796baa4de"
         ],
         "settings": {
           "height": 60,
