@@ -2502,74 +2502,6 @@
               "lb_cl": "rgba(0,0,0,0)"
             }
           },
-          "d26f6eac-c50b-4a06-bb11-c859e35fa4c1": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "iPHONE CASES",
-              "url": "shopify:\/\/collections\/latest-phone-case",
-              "open_link": "_blank",
-              "icon": "PHONE CASES",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 1200
-            }
-          },
-          "fd294656-f2ee-453e-af07-ea7ff3b6d651": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "SAMSUNG CASES",
-              "url": "shopify:\/\/collections\/samsung-s-all-models-latest-cases",
-              "open_link": "_blank",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 1200
-            }
-          },
-          "8232dc28-0378-42a7-8715-7c66615674ac": {
-            "type": "mega",
-            "disabled": true,
-            "settings": {
-              "title": "REFURBISHED iPHONES",
-              "url": "https:\/\/nzdirect.store\/collections\/iphones",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "default",
-              "wid": "cus",
-              "cus_wid": 1200
-            }
-          },
-          "c7202bc3-444d-4e99-8892-741fb1390b98": {
-            "type": "simple",
-            "disabled": true,
-            "settings": {
-              "title": "CONTACT US",
-              "url": "shopify:\/\/pages\/contact",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "ae08ad93-39c9-4c59-b168-e31d431b9888": {
             "type": "dropdown",
             "settings": {
@@ -2598,16 +2530,43 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "c7202bc3-444d-4e99-8892-741fb1390b98": {
+            "type": "simple",
+            "settings": {
+              "title": "CONTACT US",
+              "url": "shopify:\/\/pages\/contact",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "0d86edd1-ed08-4ac8-aa80-478afb867591": {
+            "type": "dropdown",
+            "settings": {
+              "title": "T&C USEFUL LINKS",
+              "url": "",
+              "open_link": "_self",
+              "menu": "footer",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "right"
+            }
           }
         },
         "block_order": [
           "header_4-0",
-          "d26f6eac-c50b-4a06-bb11-c859e35fa4c1",
-          "fd294656-f2ee-453e-af07-ea7ff3b6d651",
-          "8232dc28-0378-42a7-8715-7c66615674ac",
-          "c7202bc3-444d-4e99-8892-741fb1390b98",
           "ae08ad93-39c9-4c59-b168-e31d431b9888",
-          "d79dcdae-bb55-467c-ad9d-f88796baa4de"
+          "d79dcdae-bb55-467c-ad9d-f88796baa4de",
+          "c7202bc3-444d-4e99-8892-741fb1390b98",
+          "0d86edd1-ed08-4ac8-aa80-478afb867591"
         ],
         "settings": {
           "height": 60,
