@@ -433,9 +433,9 @@
           "1596007070336": {
             "type": "text2",
             "settings": {
-              "text": "<p>FREE DELIVERY ON $65 PURCHASES. WE SHIP OVERNIGHT ON WEEKDAYS. <\/p>",
+              "text": "",
               "effect": "0",
-              "au_time": 7.5,
+              "au_time": 5.5,
               "hide": false,
               "col": "4"
             }
