@@ -2534,6 +2534,22 @@
               "pos": "right"
             }
           },
+          "d981fd6c-83dd-4933-a990-fc16b57a1d0e": {
+            "type": "dropdown",
+            "settings": {
+              "title": "IPHONES SAMSUNG",
+              "url": "",
+              "open_link": "_self",
+              "menu": "iphone-samsung",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "right"
+            }
+          },
           "e8aa73eb-47f0-49bd-ad77-15eccf449a7d": {
             "type": "dropdown",
             "settings": {
@@ -2587,6 +2603,7 @@
           "header_4-0",
           "ae08ad93-39c9-4c59-b168-e31d431b9888",
           "3044169b-c7ef-4a41-987e-76bafe3a7c49",
+          "d981fd6c-83dd-4933-a990-fc16b57a1d0e",
           "e8aa73eb-47f0-49bd-ad77-15eccf449a7d",
           "9a92c703-8f9e-4910-b22c-93f8fb90fb44",
           "0d86edd1-ed08-4ac8-aa80-478afb867591"
