@@ -1,0 +1,662 @@
+<script>
+	window.otDDCollectionIds = window.otDDCollectionIds ? window.otDDCollectionIds : [];
+	window.otDDProductIds = window.otDDProductIds ? window.otDDProductIds : [];
+    window.otDDPDPCollectionIds = window.otDDPDPCollectionIds ? window.otDDPDPCollectionIds : [];
+	window.otDDPDPProductIds = window.otDDPDPProductIds ? window.otDDPDPProductIds : [];
+	window.otDDTotalOrders = [];
+	window.otDDExpiredTimestamp = '';
+</script>
+<script>
+	var otDDListCollectionIds =
+		'{% for line_item in cart.items %}  {% for collection in line_item.product.collections %}{{ collection.id }} {% endfor %}{% endfor %}';
+	var otDDListProductIds = '{% for line_item in cart.items %}{{ line_item.product.id }} {% endfor %}';
+	window.otDDCollectionIds = otDDListCollectionIds.trim().replace(/\s+/g, ' ').split(' ');
+	window.otDDProductIds = otDDListProductIds.trim().replace(/\s+/g, ' ').split(' ');
+</script>
+{% if template contains "product" %}
+<script>
+	var otDDPDPListCollectionIds = '{% for collection in product.collections %}{{ collection.id }} {% endfor %}';
+	window.otDDPDPCollectionIds = otDDPDPListCollectionIds.trim().replace(/\s+/g, ' ').split(' ');
+	window.otDDPDPProductIds = [__st.rid + ''];
+</script>
+{% endif %}
+{%if shop.metafields.OmegaDeliveryDate != blank %}
+    {%- for field in shop.metafields.OmegaDeliveryDate -%}
+        {%assign key = field | first %}
+        {%assign value = field | last %}
+		{%if key contains "total_orders" %}
+            <script>
+                otDDTotalOrders = JSON.parse('{{value}}')
+            </script>
+        {%endif%}
+    {%- endfor -%}
+{%endif%}
+{%if shop.metafields.OmegaDeliveryDate != blank %}
+    {%- for field in shop.metafields.OmegaDeliveryDate -%}
+        {%assign key = field | first %}
+        {%assign value = field | last %}
+		{%if key contains "expried_timestamp" %}
+            <script>
+                otDDExpiredTimestamp = '{{value}}'
+            </script>
+        {%endif%}
+    {%- endfor -%}
+{%endif%}
+<script>
+    window.otDDCollectionIdsByProductIdInCart = {};
+</script>
+{% for line_item in cart.items %}
+    <script>
+        window.otDDCollectionIdsByProductIdInCart[{{ line_item.product.id }}] = [];
+    </script>
+    {% for collection in line_item.product.collections %} 
+        <script>
+        window.otDDCollectionIdsByProductIdInCart[{{ line_item.product.id }}].push({{ collection.id }} + "")
+        </script>
+    {% endfor %}
+{% endfor %}
+<script>
+    var otDDAppData = {};
+    var otDDRootLink = '';
+    var otDDSettings = {};
+    var otDDSpecificProducts = [];
+    var otDDSpecificCollections = [];
+    var otDDBlockCollections = [];
+    var otDDHolidays = [];
+    var otDDLocationSettings = [];
+    var otDDStorePickupSettings = {};
+    var otDDExpiredTimestamp = '';
+    var otDDTheme = 'base';
+    var otDDLanguage = 'en-GB';
+</script>
+{%if shop.metafields.OmegaDeliveryDate != blank %}
+  {%- for field in shop.metafields.OmegaDeliveryDate -%}
+    {%assign key = field | first %}
+    {%assign value = field | last %}
+    {%if key contains "expired_timestamp" %}
+      <script>
+        otDDExpiredTimestamp = '{{value}}'
+      </script>
+    {%endif%}
+  {%- endfor -%}
+{%endif%}
+{%if shop.metafields.OmegaDeliveryDate != blank %}
+  {%- for field in shop.metafields.OmegaDeliveryDate -%}
+    {%assign key = field | first %}
+    {%assign value = field | last %}
+    {%if key contains "otdd_app_data" %}
+      <script>
+        otDDAppData = {{value}}
+        if (typeof otDDAppData === 'object') {
+          otDDRootLink = otDDAppData.rootLink
+          otDDSettings = otDDAppData.settings
+          otDDSpecificProducts = otDDAppData.specificProducts
+          otDDSpecificCollections = otDDAppData.specificCollections
+          otDDGeneralProducts = otDDAppData.generalProducts
+          otDDGeneralCollections = otDDAppData.generalCollections
+          otDDBlockCollections = otDDAppData.blockCollections
+          otDDHolidays = otDDAppData.holidays
+          otDDLocationSettings = otDDAppData.locationSettings
+          otDDStorePickupSettings = otDDAppData.storePickupSettings
+          otDDTheme = 'base'
+          otDDLanguage = otDDAppData.otDDLanguage
+        }
+      </script>
+    {%endif%}
+  {%- endfor -%}
+{%endif%}
+
+
+<!-- <script src="/delivery-date/jquery-ui-1.13.0/jqueryOT.js"></script>
+<script src="/delivery-date/jquery-ui-1.13.0/jquery-ui-OT.js"></script>
+<script src="/delivery-date/jquery-ui-1.13.0/i18n-OT/en-GB.js"></script>
+<script src="/delivery-date/jquery-ui-1.13.0/moment-with-locales.min.js"></script> -->
+<script id="script-otdd">
+    function otCheckScriptTag() {
+    if (window.otDDSettings?.theme_version == "1.0") {
+        var quantityExistsScriptTags = 0;
+        var scripts = document.getElementsByTagName("script");
+        for (var i = 0; i < scripts.length; i++) {
+            if (
+                (scripts[i].textContent.includes("omega-delivery-date.js")) &&
+                !scripts[i].id.includes("script-otdd")
+            ) {
+                quantityExistsScriptTags = quantityExistsScriptTags + 1;
+            } else {
+                
+            }
+        }
+        return quantityExistsScriptTags > 0;
+    } else {
+        return true;
+    }
+}
+    var _version = new Date().getTime();
+    const hasScriptTag = otCheckScriptTag();
+    if(hasScriptTag) {
+        [
+        `${otDDRootLink}/delivery-date/jquery-ui-1.13.0/jqueryOT.js`,
+        `${otDDRootLink}/delivery-date/jquery-ui-1.13.0/jquery-ui-OT.min.js`,
+        `${otDDRootLink}/delivery-date/jquery-ui-1.13.0/moment-with-locales.min.js`,
+        `${otDDRootLink}/delivery-date/js/delivery-date-logic.js?v=${_version}`,
+        `${otDDRootLink}/delivery-date/js/render.js?v=${_version}`,
+        `${otDDRootLink}/delivery-date/js/render-ajax.js?v=${_version}`,
+        `${otDDRootLink}/delivery-date/js/delivery-date.js?v=${_version}`,
+        `${otDDRootLink}/delivery-date/js/delivery-date-ajax.js?v=${_version}`,
+        `${otDDRootLink}/delivery-date/js/store-pickup.js?v=${_version}`,
+        `${otDDRootLink}/delivery-date/js/store-pickup-ajax.js?v=${_version}`,
+        `${otDDRootLink}/delivery-date/js/delivery-date-init.js?v=${_version}`,
+        `${otDDRootLink}/delivery-date/jquery-ui-1.13.0/i18n-OT/${otDDLanguage}.js`,
+    ].forEach(function (src) {
+        var script = document.createElement("script");
+        script.src = src;
+        script.async = false;
+        document.head.appendChild(script);
+    });
+    }
+    
+</script>
+<link rel="stylesheet" href="https://apps.omegatheme.com/shopify/dingdoong/public/delivery-date/jquery-ui-1.13.0/themes/base/jquery-ui.min.css">
+<link rel="stylesheet"
+    href="https://apps.omegatheme.com/shopify/dingdoong/public/delivery-date/jquery-ui-1.13.0/themes/base/jquery-ui.structure.min.css">
+<link rel="stylesheet" href="https://apps.omegatheme.com/shopify/dingdoong/public/delivery-date/jquery-ui-1.13.0/themes/base/jquery-ui.theme.min.css">
+ 
+<style>
+    .ot-delivery-overlay__inner {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: auto;
+        text-align: center;
+    }
+
+    .ot-delivery-overlay__content {
+        margin: auto;
+    }
+
+    .ot-delivery_spinner {
+        width: 75px;
+        height: 75px;
+        display: inline-block;
+        border-width: 2px;
+        border-color: #000;
+        border-top-color: #fff;
+        animation: spin 1s infinite linear;
+        border-radius: 100%;
+        border-style: solid;
+    }
+
+    @keyframes spin {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .ot-delivery_storePickup {
+        margin-top: 10px;
+    }
+
+    .ot-delivery_tabTitle {
+        display: block;
+    }
+
+    .ot-delivery_pickupTab, .ot-delivery_pickupTab-ajax {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .ot-delivery_pickupTab-tab, .ot-delivery_pickupTab-tab-ajax {
+        cursor: pointer;
+        padding: 20px;
+        display: flex;
+        text-align: center;
+        font-weight: 600;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid #eee;
+        margin-right: 5px;
+        color: #333
+    }
+
+    .ot-delivery_map {
+        width: 520px;
+    }
+
+    .ot-delivery_pickupTab-tab img, .ot-delivery_pickupTab-tab-ajax img {
+        fill: #000;
+        width: 45px;
+        padding-right: 5px;
+    }
+
+    .ot-delivery_pickupTab-tab.otDisable:hover, .ot-delivery_pickupTab-tab-ajax.otDisable:hover {
+        fill: #000;
+        background-color: #ddd;
+        color: #000;
+    }
+
+    .ot-delivery_pickupTab-tab.otActive:hover, .ot-delivery_pickupTab-tab-ajax.otActive:hover {
+        opacity: 0.8;
+    }
+    .ot-delivery-tabStorePickup, .ot-delivery-tabStorePickup-ajax {
+        display: none;
+        margin-top: 10px;
+    }
+
+    .ot-delivery_map {
+        width: 500px;
+        height: 240px;
+    }
+
+    .ot-delivery_locationAddress {
+        margin: 20px 0;
+    }
+
+    .ot-delivery_locationAddress h5 {
+        margin-bottom: 10px;
+    }
+
+    .ot-delivery-tabContext {
+        margin: 20px 0;
+    }
+
+    .ot-delivery_locationAddress_option {
+        padding: 5px;
+        height: 40px;
+    }
+
+    .ot-delivery_addressList {
+        max-height: 420px;
+        overflow-y: scroll;
+        margin-bottom: 10px;
+    }
+
+    .ot-delivery_addressList li {
+        margin: 0;
+    }
+
+    .ot-delivery_addressList::-webkit-scrollbar {
+        width: 8px;
+        background-color: transparent;
+    }
+
+    .ot-delivery_addressList::-webkit-scrollbar-track {
+        background: 0 0;
+    }
+
+    .ot-delivery_addressList::-webkit-scrollbar-thumb {
+        background: #eee;
+        border-radius: 3px;
+    }
+
+    .ot-delivery_addressList::-webkit-scrollbar-thumb:hover {
+        background: #ddd;
+        border-radius: 3px;
+    }
+
+    .ot-delivery_addressListItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .ot-delivery_addressListItem:hover {
+        opacity: 0.9;
+    }
+
+    .ot-delivery_addressListItem input[type="radio"]:before {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        margin: 140% 0.2rem 130% 0.16rem;
+        border-radius: 50%;
+    }
+
+    .ot-delivery_addressListItem input {
+        margin-right: 30px;
+    }
+
+    .ot-delivery_addressListItem label {
+        padding: 8px;
+    }
+
+    .ot-delivery_addressListItem label span {
+        font-weight: 600;
+        align-items: center;
+        display: inline-flex;
+    }
+
+    .ot-delivery_addressListItem p {
+        margin: 0;
+    }
+
+    #delivery-date-tab.active img,
+    #delivery-location-tab.active img {
+        filter: invert(1);
+    }
+
+    #otdd .ui-datepicker {
+        z-index: 100000000000 !important;
+    }
+    
+    #otdd .ui-state-disabled.ui-datepicker-today span{
+        background: rgb(255, 239, 146);
+        color: #000;
+        border: 1px solid rgb(245, 220, 81);
+    }
+    .ot-delivery_storePickup {
+        text-align: left;
+    }
+
+    .ot-delivery-date-store-pickup-input,
+    .ot-delivery-date-store-pickup-select {
+        width: 100%;
+        color: #6e6e6e;
+    }
+
+    .ot-delivery-date-store-pickup {
+        position: relative;
+        display: none;
+    }
+
+    .ot-delivery-overlay__inner {
+        display: none;
+    }
+
+    .ot-delivery_addressList {
+        padding: 0;
+    }
+
+    .ot-delivery_addressList li {
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+    .ot-delivery-date-notice-text-clickable-store-pickup {
+        cursor: pointer;
+        text-decoration: underline
+    }
+
+    .ot-delivery_map {
+        width: 100%
+    }
+
+    .ot-delivery-date-input {
+        width: 100%
+    }
+
+    .ot-delivery-date-select {
+        width: 100%;
+        margin-top: 10px
+    }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        .ot-delivery_storePickup {
+            width: 100%;
+        }
+    }
+    .ot-delivery_addressList li.disable-click {
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+        display: none
+    }
+
+    .ot-delivery_locationAddress h5 {
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 25px;
+        color: #333232;
+    }
+    .ot-delivery_pickupTab-tab.disable .ot-delivery_tabTitle {
+        margin-top: 10px;
+    }
+
+    .ot-delivery_addressList li {
+        background-color: #fff;
+        border-bottom: 1px solid #F4F4F4;
+    }
+
+    .ot-product-delivery-date-title {
+        display: none;
+    }
+
+    .ot-delivery-date {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    /* .ot-delivery-date_delivery-date-layout {
+        width: 50%;
+    } */
+    .ot-delivery-date_width50 {
+        width: 50%;
+        margin-left: 50%;
+    }
+
+    .ot-delivery-date p, .ot-delivery-date-ajax p {
+        margin-bottom: 5px;
+    }
+
+    .ot-delivery-date_date-input,
+    .ot-delivery-date_time-input, .ot-delivery-date-ajax_date-input, .ot-delivery-date-ajax_time-input {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .ot-delivery_addressList::-webkit-scrollbar-thumb {
+        background: #b4b4b425;
+    }
+
+    .ot-delivery-date-datepicker {
+        width: 100%;
+        text-align: left;
+    }
+
+    .ot-delivery-date-datepicker .ot-delivery-title {
+        font-weight: 300;
+        font-size: 2.2rem;
+    }
+
+    .ot-delivery-date-datepicker #datepicker {
+        font-size: 1.4rem;
+        line-height: 1.71429;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+    .ot-delivery-date-select-time {
+        font-size: 1.4rem;
+        line-height: 1.71429;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        color: #555;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        padding-right: 28px;
+        text-indent: 0.01px;
+        text-overflow: "";
+        cursor: pointer;
+        background-image: linear-gradient(45deg, transparent 50%, #eb4f47 50%),
+            linear-gradient(135deg, #eb4f47 50%, transparent 50%);
+        background-position: calc(100% - 27px) calc(1rem + 10px),
+            calc(100% - 23px) calc(1rem + 10px);
+        background-size: 4px 4px, 4px 4px;
+        background-repeat: no-repeat;
+    }
+
+    .flatpickr-calendar {
+        z-index: 100000000000 !important;
+    }
+
+    .ot-delivery-date .ot-delivery-date-notice-text-clickable,.ot-delivery-date-ajax .ot-delivery-date-notice-text-clickable {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .ot-delivery-date_notice-text {
+        text-align: end;
+    }
+
+    .ot-delivery-date-note {
+        display: none;
+    }
+
+    .ot-highlight-date {
+        background-color: rgb(0, 83, 238);
+        color: #fff;
+    }
+
+    /* .ui-datepicker-calendar thead {
+    background: #e69e6c;
+    }
+    .ui-widget-header.ui-corner-all {
+    border-color: #e69e6c;
+    background: #e69e6c;
+    padding: 15px 0 5px;
+    }
+    .ui-datepicker .ui-datepicker-prev,
+    .ui-datepicker .ui-datepicker-next {
+    top: 15px;
+    }
+    .ui-datepicker-calendar thead tr th span {
+    color: #fff;
+    } */
+    @media only screen and (min-width: 750px) {
+
+        /* .ot-delivery-date {
+    position: absolute;
+    top: -12px;
+    right: 43px;
+    width: 211px;
+    } */
+        p.ot-delivery-date-notice-text {
+            padding: 27px 0 0;
+        }
+
+        .template-cart .ot-delivery-date, .template-cart .ot-delivery-date-ajax {
+            position: relative;
+            top: 0;
+            right: auto;
+            left: 0;
+            width: 50%;
+            margin-left: 50% ;
+        }
+        .ot-delivery-date_layout {
+            text-align: left;
+        }
+
+        .ot-delivery-date.ot-div-input, .ot-delivery-date-ajax.ot-div-input {
+            text-align: left !important;
+            width: 100%;
+            margin-left: 0
+        }
+        .ot-delivery-date_time-input_option {
+            cursor: pointer;
+        }
+    }
+    .otAjaxCart .ot-delivery_storePickup {
+        width: 100%;
+    }
+    .otAjaxCart .ot-delivery-date-ajax {
+        max-height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    }
+    .otAjaxCart .ot-delivery-date-ajax::-webkit-scrollbar {
+        width: 8px;
+        background-color: transparent;
+    }
+
+    .otAjaxCart .ot-delivery-date-ajax::-webkit-scrollbar-track {
+        background: 0 0;
+    }
+
+    .otAjaxCart .ot-delivery-date-ajax::-webkit-scrollbar-thumb {
+        background: #eee;
+        border-radius: 3px;
+    }
+
+    .otAjaxCart .ot-delivery-date-ajax::-webkit-scrollbar-thumb:hover {
+        background: #ddd;
+        border-radius: 3px;
+    }
+
+
+    /* NEW VERSION STYLE */
+    .ot-delivery-date_date-input-wrapper,
+     .ot-delivery-date_time-input-wrapper,
+     .ot-delivery-date-ajax_date-input-wrapper,
+     .ot-delivery-date-ajax_time-input-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+      margin-top: 10px;
+        background-color: #fff;
+    }
+    .ot-delivery-date_date-input-input-icon, .ot-delivery-date-ajax_date-input-input-icon {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .ot-delivery-date_date-input-input-wrapper, .ot-delivery-date-ajax_date-input-input-wrapper {
+        width: 100%;
+        text-align: left;
+    }
+    .ot-delivery-date_date-input-input-wrapper #ot-datepicker,
+    .ot-delivery-date_date-input-input-wrapper #ot-time-slot,
+    #ot-datepicker-ajax,
+    #ot-time-slot-ajax  {
+        margin: 0;
+        border: none;
+        padding: 5px 0px;
+        width: 100%;
+        cursor: pointer;
+        min-height: 20px;
+        background: #fff;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    .ot-delivery-date_date-input-input-wrapper #ot-datepicker:focus, 
+    .ot-delivery-date_date-input-input-wrapper #ot-time-slot:focus,
+    #ot-datepicker-ajax:focus,  #ot-time-slot-ajax:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .ot-delivery_pickupTab--date path {
+        fill: #333
+    }
+    .ot-delivery_pickupTab--location path{
+        stroke: rgb(212, 11, 11) !important
+    }
+    .ot-delivery_pickupTab--date.active path {
+        fill: #fff
+    }
+    .ot-delivery_pickupTab--location.active path{
+        stroke: #fff !important
+    }
+    
+    .ot-delivery_company-name {
+        display: flex;
+    align-items: center;
+    }
+</style>
