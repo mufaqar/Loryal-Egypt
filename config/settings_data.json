@@ -877,13 +877,27 @@
               "icons_op": "2",
               "icon": "chair"
             }
+          },
+          "35dc26c1-50b6-4d9e-93ed-f975aaaa191d": {
+            "type": "cat",
+            "settings": {
+              "cat": "women-products",
+              "title": "WOMEN PRODUCTS",
+              "url": "",
+              "menu": "women-products",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "chair"
+            }
           }
         },
         "block_order": [
           "1585641915360",
           "1585642167981",
           "1585642277236",
-          "c47cb33c-2320-40ea-b7f2-15efd8b99af4"
+          "c47cb33c-2320-40ea-b7f2-15efd8b99af4",
+          "35dc26c1-50b6-4d9e-93ed-f975aaaa191d"
         ],
         "settings": {
         }
