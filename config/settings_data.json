@@ -739,42 +739,6 @@
               "lb_cl": ""
             }
           },
-          "mb_nav-2": {
-            "type": "menu",
-            "settings": {
-              "title": "IPHONE CASES",
-              "url": "shopify:\/\/collections\/latest-phone-case",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "1585642902196": {
-            "type": "menu",
-            "settings": {
-              "title": "SAMSUNG CASES",
-              "url": "shopify:\/\/collections\/samsung-s-all-models-latest-cases",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "1585642908420": {
-            "type": "menu",
-            "settings": {
-              "title": "REFURBISHED IPHONES",
-              "url": "shopify:\/\/collections\/iphones",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "mb_nav-3": {
             "type": "menu",
             "settings": {
@@ -790,10 +754,10 @@
           "1585642887352": {
             "type": "menu",
             "settings": {
-              "title": "BLOG",
-              "url": "shopify:\/\/blogs\/news",
+              "title": "T&C USEFUL LINKS",
+              "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "t-c-useful-links",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -812,9 +776,6 @@
         },
         "block_order": [
           "mb_nav-0",
-          "mb_nav-2",
-          "1585642902196",
-          "1585642908420",
           "mb_nav-3",
           "1585642887352",
           "mb_nav-5",
