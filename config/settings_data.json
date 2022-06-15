@@ -832,7 +832,7 @@
               "cat": "bluetooth-peripherals",
               "title": "BLUETOOTH & PERIPHERALS",
               "url": "",
-              "menu": "",
+              "menu": "bluetooth-peripherals",
               "lb": "",
               "lb_cl": "#e91e63",
               "icons_op": "2",
