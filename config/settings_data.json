@@ -739,18 +739,6 @@
               "lb_cl": ""
             }
           },
-          "mb_nav-1": {
-            "type": "menu",
-            "settings": {
-              "title": "WIRELESS HEADPHONES",
-              "url": "shopify:\/\/collections\/wireless-bluetooth-headphones-speakers",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "mb_nav-2": {
             "type": "menu",
             "settings": {
@@ -824,7 +812,6 @@
         },
         "block_order": [
           "mb_nav-0",
-          "mb_nav-1",
           "mb_nav-2",
           "1585642902196",
           "1585642908420",
@@ -842,8 +829,8 @@
           "1585641915360": {
             "type": "cat",
             "settings": {
-              "cat": "universal-leather-cases",
-              "title": "Wireless Headphone",
+              "cat": "bluetooth-peripherals",
+              "title": "BLUETOOTH & PERIPHERALS",
               "url": "",
               "menu": "",
               "lb": "",
