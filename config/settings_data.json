@@ -842,10 +842,10 @@
           "1585642167981": {
             "type": "cat",
             "settings": {
-              "cat": "iphones",
-              "title": "iPhones",
+              "cat": "latest-cases",
+              "title": "LATEST CASES",
               "url": "",
-              "menu": "",
+              "menu": "latest-cases",
               "lb": "",
               "lb_cl": "#e91e63",
               "icons_op": "2",
@@ -855,10 +855,10 @@
           "1585642277236": {
             "type": "cat",
             "settings": {
-              "cat": "samsung-s-all-models-latest-cases",
-              "title": "Latest cases",
+              "cat": "iphones",
+              "title": "IPHONES SAMSUNG",
               "url": "",
-              "menu": "",
+              "menu": "iphone-samsung",
               "lb": "",
               "lb_cl": "#e91e63",
               "icons_op": "2",
