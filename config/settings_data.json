@@ -864,12 +864,26 @@
               "icons_op": "2",
               "icon": "glasses"
             }
+          },
+          "c47cb33c-2320-40ea-b7f2-15efd8b99af4": {
+            "type": "cat",
+            "settings": {
+              "cat": "leather-jackets",
+              "title": "LEATHER JACKETS",
+              "url": "",
+              "menu": "leather-jackets",
+              "lb": "",
+              "lb_cl": "#e91e63",
+              "icons_op": "2",
+              "icon": "chair"
+            }
           }
         },
         "block_order": [
           "1585641915360",
           "1585642167981",
-          "1585642277236"
+          "1585642277236",
+          "c47cb33c-2320-40ea-b7f2-15efd8b99af4"
         ],
         "settings": {
         }
