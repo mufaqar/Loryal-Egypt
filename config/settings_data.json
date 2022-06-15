@@ -739,18 +739,6 @@
               "lb_cl": ""
             }
           },
-          "mb_nav-3": {
-            "type": "menu",
-            "settings": {
-              "title": "CONTACT US",
-              "url": "shopify:\/\/pages\/contact",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "1585642887352": {
             "type": "menu",
             "settings": {
@@ -776,7 +764,6 @@
         },
         "block_order": [
           "mb_nav-0",
-          "mb_nav-3",
           "1585642887352",
           "mb_nav-5",
           "mb_nav-6"
