@@ -779,7 +779,7 @@
             "type": "menu",
             "settings": {
               "title": "REFURBISHED IPHONES",
-              "url": "shopify:\/\/collections\/iphones-cases",
+              "url": "shopify:\/\/collections\/iphones",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -855,7 +855,7 @@
           "1585642167981": {
             "type": "cat",
             "settings": {
-              "cat": "iphones-cases",
+              "cat": "iphones",
               "title": "iPhones",
               "url": "",
               "menu": "",
