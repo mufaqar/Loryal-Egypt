@@ -2089,7 +2089,7 @@
       "sales_popup": {
         "type": "sales_popup",
         "settings": {
-          "collection_id": "",
+          "collection_id": "leather-jackets",
           "limit": 50,
           "index": false,
           "product": false,
@@ -2122,10 +2122,10 @@
           "sub_title": "Maybe this will help...",
           "sub_font": "2",
           "btn_title": "See all products",
-          "style_title": "title_1",
+          "style_title": "title_2",
           "ic_tt": "gem",
           "show_clpr": false,
-          "collection_id": "",
+          "collection_id": "iphonecases",
           "limit": 8,
           "col_pr": "3",
           "pr_des": "1",
