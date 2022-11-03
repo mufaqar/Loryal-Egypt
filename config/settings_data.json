@@ -2468,42 +2468,10 @@
           "ae08ad93-39c9-4c59-b168-e31d431b9888": {
             "type": "dropdown",
             "settings": {
-              "title": "BLUETOOTH & PERIPHERALS",
-              "url": "shopify:\/\/collections\/bluetooth-peripherals",
+              "title": "MEN LEATHER JACKETS",
+              "url": "shopify:\/\/collections\/gents",
               "open_link": "_self",
               "menu": "bluetooth-peripherals",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "right"
-            }
-          },
-          "3044169b-c7ef-4a41-987e-76bafe3a7c49": {
-            "type": "dropdown",
-            "settings": {
-              "title": "LATEST CASES",
-              "url": "",
-              "open_link": "_self",
-              "menu": "latest-cases",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "right"
-            }
-          },
-          "d981fd6c-83dd-4933-a990-fc16b57a1d0e": {
-            "type": "dropdown",
-            "settings": {
-              "title": "IPHONES SAMSUNG",
-              "url": "",
-              "open_link": "_self",
-              "menu": "iphone-samsung",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -2516,26 +2484,10 @@
           "e8aa73eb-47f0-49bd-ad77-15eccf449a7d": {
             "type": "dropdown",
             "settings": {
-              "title": "LEATHER JACKETS",
-              "url": "",
+              "title": "WOMEN LEATHER JACKETS",
+              "url": "shopify:\/\/collections\/women",
               "open_link": "_self",
               "menu": "leather-jackets",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "lazy_mn": true,
-              "pos": "right"
-            }
-          },
-          "9a92c703-8f9e-4910-b22c-93f8fb90fb44": {
-            "type": "dropdown",
-            "settings": {
-              "title": "WOMEN PRODUCTS",
-              "url": "",
-              "open_link": "_self",
-              "menu": "women-products",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -2565,10 +2517,7 @@
         "block_order": [
           "header_4-0",
           "ae08ad93-39c9-4c59-b168-e31d431b9888",
-          "3044169b-c7ef-4a41-987e-76bafe3a7c49",
-          "d981fd6c-83dd-4933-a990-fc16b57a1d0e",
           "e8aa73eb-47f0-49bd-ad77-15eccf449a7d",
-          "9a92c703-8f9e-4910-b22c-93f8fb90fb44",
           "0d86edd1-ed08-4ac8-aa80-478afb867591"
         ],
         "settings": {
