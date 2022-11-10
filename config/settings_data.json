@@ -2527,7 +2527,7 @@
           "border": true,
           "color": "#ececec",
           "source": "0",
-          "txt": "WE ARE LOCAL, OVERNIGHT SHIPPING ON WEEKDAYS",
+          "txt": "WE ARE LOCAL",
           "social": "2",
           "align": "tc",
           "hover": "hover_fade_in"
