@@ -433,11 +433,11 @@
           "1596007070336": {
             "type": "text2",
             "settings": {
-              "text": "<p>FREE SHIPPING NEW ZEALAND AND AUSTRALIA-WIDE.<\/p>",
+              "text": "<p>Apologies, our shipment delivery time has been delayed from 15 working days to 30 working days due to unforeseen circumstances. As soon as we shall overcome the circumstances, we will update on website<\/p>",
               "effect": "0",
               "au_time": 5.5,
               "hide": false,
-              "col": "4"
+              "col": "8"
             }
           }
         },
@@ -780,7 +780,7 @@
               "cat": "bluetooth-peripherals",
               "title": "BLUETOOTH & PERIPHERALS",
               "url": "",
-              "menu": "bluetooth-peripherals",
+              "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
               "icons_op": "2",
@@ -793,7 +793,7 @@
               "cat": "latest-cases",
               "title": "LATEST CASES",
               "url": "",
-              "menu": "latest-cases",
+              "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
               "icons_op": "2",
@@ -806,7 +806,7 @@
               "cat": "iphones",
               "title": "IPHONES SAMSUNG",
               "url": "",
-              "menu": "iphone-samsung",
+              "menu": "",
               "lb": "",
               "lb_cl": "#e91e63",
               "icons_op": "2",
@@ -2471,7 +2471,7 @@
               "title": "MEN LEATHER JACKETS",
               "url": "shopify:\/\/collections\/gents",
               "open_link": "_self",
-              "menu": "bluetooth-peripherals",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
