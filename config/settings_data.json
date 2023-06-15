@@ -3059,9 +3059,29 @@
         "settings": {
           "auto": true
         }
+      },
+      "4a7357b7-b913-4549-a93b-0b8ff06b56c0": {
+        "type": "rich_text",
+        "settings": {
+          "title": "Apologies, our shipment delivery",
+          "sub_title": "time has been delayed from 15 working days to 30 working days due to unforeseen circumstances. As soon as we shall overcome the circumstances, we will update on website",
+          "sub_font": "2",
+          "style_title": "title_3",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "align": "tc",
+          "layout": "container",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
+      "4a7357b7-b913-4549-a93b-0b8ff06b56c0",
       "1581505806578",
       "16513172349ce09c6a",
       "1597120285267",
